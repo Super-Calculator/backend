@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+    # image project
+    app:
+        build:
+            context: .
+            dockerfile: ./app/Dockerfile
+        command: sh -c "npm install && npm run start"
+        restart: unless-stopped
+        container_name: app
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./app:/app/

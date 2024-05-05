@@ -1,0 +1,32 @@
+{
+  "name": "super-calculator-backend",
+  "version": "1.0.0",
+  "description": "Backend project for Super Calculator App made in NodeJs with Express and Typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx watch src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Super-Calculator/backend.git"
+  },
+  "keywords": [
+    "super-calculator"
+  ],
+  "author": "nelson16.code@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Super-Calculator/backend/issues"
+  },
+  "homepage": "https://github.com/Super-Calculator/backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.8",
+    "typescript": "^5.4.5"
+  }
+}
