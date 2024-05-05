@@ -28,7 +28,10 @@ jobs:
         cache: 'npm'
     - name: Install Dependencies
       working-directory: ./app
-      run: pwd | npm install
+      run: pwd
+    - name: Testsss
+      working-directory: ./app
+      run: npm install
     - name: Run Tests
       working-directory: ./app
       run: npm run test
